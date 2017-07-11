@@ -1,0 +1,44 @@
+
+@import url("font1.css");
+@import url("font2.css");
+@import url("entypo.css");
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  background-color: #000000;
+}
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+section #services li {
+  width: 60px;
+  height: 80px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+section #services li div {
+  width: 80px;
+  height: 80px;
+  color: #008B8B;
+  text-decoration: none;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 80px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+a:visited {
+    color: #008B8B;
+}
+a { text-decoration: none }
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
