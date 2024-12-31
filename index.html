@@ -1,660 +1,111 @@
-
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE html>
 <html>
+
 <head>
-<title>Prachi Poddar</title>
-<!--mobile apps-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="About Me" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--mobile apps-->
-<!--Custom Theme files-->
-<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-<link rel="stylesheet" href="css/swipebox.css">
-<!--//Custom Theme files-->
-<!--js-->
-<script src="js/jquery-1.11.1.min.js"></script> 
-<!-- //js -->
-<!--web-fonts-->
-<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<!--//web-fonts-->
-<!--start-smooth-scrolling-->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>	
-<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-			});
-		});
-</script>
-<!--//end-smooth-scrolling-->
+   
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@imPrachiPoddar" />
+    <link rel="canonical" href="http://prachipoddar.com" />
+   
+    <title>Prachi Poddar</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 10;
+       line-height:1.4;
+       font-size:16px;
+       font-family:sans-serif;
+       margin: 50px auto;
+       max-width: 650px;
+        }
+
+        #navbarTop {
+        height: 100px;
+      padding:10px;
+        width:100%;
+         
+        }
+
+        #navbarLeft {
+            width: 200px;
+            vertical-align: top;
+       padding: 5px;
+        float:left;
+        }
+
+      
+
+   #maincontent
+   {
+   max-width:42em;margin:15 auto;
+
+   }
+
+    </style>
 </head>
+
 <body>
-	<!--banner-->
-	<div id="home" class="banner">
-		<div class="banner-info">
-			<div class="container">
-				<div class="col-md-4 header-left" >
-					<img style='height: 70%; width: 70%; object-fit: contain' src="images/img1.jpg" alt="" vspace="20%"/>
-				</div>
-				<div class="col-md-8 header-right">
-					<h2>Hello</h2>
-					<h1>I'm Prachi Poddar</h1>
-					<h6>Software Engineer and Developer</h6>
-					<ul class="address">
-						<li>
-							<ul class="address-text">
-								<li><b>PHONE </b></li>
-								<li>+1-631-542-3023</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>ADDRESS </b></li>
-								<li>700 Health Sciences Drive, Chapin Apartments A-2008C, Stony Brook, NY</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>E-MAIL </b></li>
-								<li><a href="mailto:ppoddar@cs.stonybrook.edu">ppoddar@cs.stonybrook.edu</a>/<a href="mailto:prachi.poddar108@gmail.com">prachi.poddar108@gmail.com</a></li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>LINKEDIN </b></li>
-								<li><a href="https://www.linkedin.com/in/prachipoddar" target="_blank">https://www.linkedin.com/in/prachipoddar</a></li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>GITHUB </b></li>
-								<li><a href="https://github.com/prachi108" target="_blank">https://github.com/prachi108</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!--//banner-->
-	<!--top-nav-->
-	<div class="top-nav wow">
-		<div class="container">
-			<div class="navbar-header logo">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					Menu
-				</button>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<div class="menu">
-					<ul class="nav navbar">
-						<li><a href="#about" class="scroll">About</a></li>
-						<li><a href="#work" class="scroll">Experience</a></li>
-						<li><a href="#education" class="scroll">Education</a></li>
-						<li><a href="#skills" class="scroll">Skills</a></li>
-						<li><a href="#projects" class="scroll">My Projects</a></li>
-						<li><a href="#contact" class="scroll">Contact</a></li>
-					</ul>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-		</div>
-	</div>	
-	<!--//top-nav-->
-	<!--about-->
-	<div id="about" class="about">
-		<div class="container">
-			<h3 class="title"> About Me</h3>
-			<div class="col-md-8 about-left">
-				<p>Currently pursuing Masters at Stony Brook University with major in Computer Science. I am also working in <a href="http://bmidb.cs.stonybrook.edu/">Data Analytics and Management Lab</a> at Stony Brook University, led by professor <a href = "http://www.fushengwang.net">Fusheng Wang</a>. My area of interests/expertise are algorithms, Big Data analytics, database, full-stack web development, testing and security. Actively seeking full-time opportunities post graduation (Dec'17) as Software Engineer/Developer.</p><br>
-				<p>Background:Proficient in application design and development, database, automation, data processing and mining. Prior experience in various Java frameworks, tools and enterprise library as well as with software development life cycle models and involved in all phases of product life cycle.</p><br>
-				<p>Hobbies:solving puzzles and coding challenges;Playing Squash, table-tennis, badminton;cooking;travelling;</p>
-			</div>
-			<div class="col-md-4 about-right">
-				<img style='height: 150%; width: 150%; object-fit: contain'src="images/wordCloud.png" alt="" />
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	<!--//about-->
-	<!--work-experience-->
-	<div id="work" class="work">
-		<div class="container">
-			<h3 class="title">Work Experience</h3>
-			<div class="work-info"> 
-				<div class="col-md-6 work-right work-right2"> 
-					<h4>May 2017 - Aug 2017</h4>
-				</div>
-				<div class="col-md-6 work-left work-left2"> 
-					<h5> Cloudera <span class="glyphicon glyphicon-briefcase"> </span></h5>
-					<p> Part of the development team for Hadoop User Experience (HUE), an open source product for analyzing data with Apache Hadoop. Designed and implemented the querying of a traditional DBMS and converted it into a simple and stable data import job. Scheduled import jobs to run repeatedly. Added additional operations to the Solr Indexer and Table Indexer.</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info"> 
-				<div class="col-md-6 work-left"> 
-					<h4>Dec 2014 - Aug 2016</h4>
-				</div>
-				<div class="col-md-6 work-right"> 
-					<h5><span class="glyphicon glyphicon-briefcase"> </span> EdgeVerve Systems Limited </h5>
-					<p>Worked as a core developer of Assist Edge, an enterprise class customer service product with 240000+ end users, used in 40+ countries and 400+ contact centers and which has won 3 innovative awards over the past 2 years.</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info"> 
-				<div class="col-md-6 work-right work-right2"> 
-					<h4>Aug 2014 - Dec 2014</h4>
-				</div>
-				<div class="col-md-6 work-left work-left2"> 
-					<h5> Infosys <span class="glyphicon glyphicon-briefcase"> </span></h5>
-					<p> Underwent Foundation Training Program, intensive 20-week training conducted by Infosys Global Education Center and excelled in the training program with specialized training in JAVA EE technologies securing an overall CGPA of 4.93/5 and became the Top Performer.</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info"> 
-				<div class="col-md-6 work-left"> 
-					<h4>Jun 2014 - Jul 2014</h4>
-				</div>
-				<div class="col-md-6 work-right"> 
-					<h5><span class="glyphicon glyphicon-briefcase"> </span> Mapple Edusoft</h5>
-					<p>Conducted summer training on ORACLE Architecture with 5 other members at Jaipur National University to train 300 MCA (Masters in Computer Application) 3rd year students by teaching conceptual working along with hands on</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info"> 
-				<div class="col-md-6 work-right work-right2"> 
-					<h4>Jun 2013 - Jul 2013</h4>
-				</div>
-				<div class="col-md-6 work-left work-left2"> 
-					<h5>Knowledge Point Infotech<span class="glyphicon glyphicon-briefcase"></span> </h5>
-					<p>Enabled key business transformation for an Integrated Enterprise level system (ERP) by identifying key sources for conversions and standardizing the input data to ERP. Designed elastic support with auto-scale processing units and storage when the number of clients or the amount of data exceeds their thresholds.</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!--//work-experience-->
-	<!--education-->
-	<div id="education" class="education">
-		<div class="container">
-			<h3 class="title">Education</h3>
-			<div class="work-info"> 
-				<div class="col-md-6 work-left"> 
-					<h4>Master Degree (Computer Science) - 2017</h4>
-				</div>
-				<div class="col-md-6 work-right"> 
-					<h5><span class="glyphicon glyphicon-education"> </span> Stony Brook University</h5>
-					<p>Coursework: Big Data Analytics, Probability and statistics for data scientists, Artificial Intelligence, Logic in Computer Science, Visualisation, Operating System, System Security, Computational Biology</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info"> 
-				<div class="col-md-6 work-right work-right2"> 
-					<h4>Bachelors Degree (Computer Science) - 2014</h4>
-				</div>
-				<div class="col-md-6 work-left work-left2"> 
-					<h5> Rajasthan Technical University <span class="glyphicon glyphicon-education"></span></h5>
-					<p>Coursework: Computer Architecture, Principles of Programming Language, Theory of Computation, Database Management System, Compiler Comstruction, Design and Analysis of Algorithms, etc</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!--//education-->
-	<!--skills-->
-	<div id="skills" class="skills">
-		<div class="container">
-			<h3 class="title">Skills</h3>
-			<div class="skills-info">
-				<div class="col-md-6 bar-grids">
-					<h6>SOFTWARE DESIGN & DEVELOPMENT <span> 70% </span></h6>
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped active" style="width: 70%">
-						</div>
-					</div>
-					<h6>DATABASE and SEARCH ENGINES<span>90% </span></h6>
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped active" style="width: 90%">
-						</div>
-					</div>
-					<h6>BIG DATA ANALYTICS <span> 75% </span></h6>
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped active" style="width: 55%">
-						</div>
-					</div>
-					<h6>VISUALISATION <span> 50% </span></h6>
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped active" style="width: 50%">
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 bar-grids">
-					<h6>PROJECT MANAGEMENT <span> 85% </span></h6>
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped active" style="width: 85%">
-						</div>
-					</div>
-					<h6>SYSTEM PROGRAMMING<span> 65% </span></h6>
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped active" style="width: 65%">
-						</div>
-					</div>
-					<h6>SOFTWARE TESTING<span>90% </span></h6>
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped active" style="width: 90%">
-						</div>
-					</div>
-					<h6>JAVA PROGRAMMING<span> 99% </span></h6>
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped active" style="width: 99%">
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!--//education-->
-	<!--portfolio-->
-	<div id="projects" class="portfolio">
-		<div class="container">
-			<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">Academic Projects</h3>
-			<div class="sap_tabs">			
-				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-					<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
-						<li class="resp-tab-item"><span>All</span></li>
-						<li class="resp-tab-item"><span>Big Data</span></li>
-						<li class="resp-tab-item"><span>Systems</span></li>
-						<li class="resp-tab-item"><span>Web</span></li>
-						<li class="resp-tab-item"><span>Visualisation</span></li>
-						<li class="resp-tab-item"><span>Others</span></li>				
-					</ul>	
-					<div class="clearfix"> </div>	
-					<div class="resp-tabs-container">
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Million-Song-Project" target="_blank" Vclass="swipebox" title="Built a Song Recommendation System using both content-based and collaborative filtering on 10GB subset of MSD (Million Song Data) with a precision of 6.1%. Also performed trend analysis and visualization on MSD across the years, varying from song popularity to loudness.">
-											<img src="images/five.jpg" alt="Image 404" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Million Song Project</h3>
-												<p>Used: Apache Spark, Python</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Web-Application-Firewall" target="_blank" Vclass="swipebox" title="Designed a Web Application Firewall as an Apache module that “sits” in-front of a web server to recognize malicious requests using signatures and anomaly detection.The WAF recognizes malicious requests using signatures and anomaly detection. WAF is trained on Joolma Content Management System.">
-											<img src="images/four.jpg" alt="Image 404" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Web Application Firewall</h3>
-												<p>Used: Apache module, C</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Stackable-Tracing-File-System" target="_blank" Vclass="swipebox" title="Built a Stackable File System called “Trfs” to provide operation-tracing support for all the file system calls from the user land. All the trace records can be replayed from the user level.">
-											<img src="images/two.jpeg" alt="Image 404" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Stackable Tracing Filesystem</h3>
-												<p>Used: C, Kernel C, Linux</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Xmergesort-System-Call-in-Linux-Kernel" target="_blank" Vclass="swipebox" title="This project involved implementation of a new system call in Linux kernel that takes two or more input files, merge-sorts them, and produces an output file. All checks and validations were done at the system level. Also supported flags to determine various options of sorting.">
-											<img src="images/three.png" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>"xmergesort"​ System Call in Linux Kernel</h3>
-												<p>Used: C, Kernel C, Linux</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Packed-Suffix-Array" target="_blank" Vclass="swipebox" title="Programmed a suffix array along with associated functions using binary encoding and tested on real sequencing data.">
-											<img src="images/six.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Packed Suffix Array</h3>
-												<p>Used: C++, RapMap API</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="javascript:void(0);" Vclass="swipebox" title="Geocoding is a critical task for big spatial data based public health studies, and many other spatial oriented data analytics. Developing a highly scalable geocoding system that could support massive addresses with high accuracy. Using multiple databases, including TIGER, parcel data, OpenStreetMap, etc and building parallel queries through in-memory based database for scalable searching. Using NLP and rule engine for understanding the semantics of US addresses. The aim is to deliver the best open source geocoding system for the community.">
-											<img src="images/nine.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Geocoding System in Spatial Big Data Analytics</h3>
-												<p>Used: Java, Python, Solr, Sphinx, TigerMap, Open Street Map</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Virtual-Medical-Home" target="_blank" Vclass="swipebox" title="Conceptualized multi-level “Virtual Medical Home” through a series of web-enabled services and rendered a robust IR system capable of understanding bio-metrics, blood reports, X-rays, CT scans, etc. Provisioned with portals to schedule appointments, view medical prescriptions and send in inquiries pertaining to treatment follow-up">
-											<img src="images/one.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Virtual Medical Home</h3>
-												<p>Used: Java, JSP, Servlet, MySQL, HTML, CSS, AJAX, Javascript</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Pre-process-system-calls-vectors-support-in-Linux-Kernel" target="_blank" Vclass="swipebox" title="Modified the Linux kernel to support system calls (on x64) on a per-process basis. Each process can now execute different versions of a system call based on the system call vector it is assigned.">
-											<img src="images/ten.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Pre-process system calls vectors in Linux Kernel</h3>
-												<p>Used: C, Kernel C, Linux</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Student-DBMS" target="_blank" Vclass="swipebox" title="Designed Flat File Database Management System using C language as a light weight database application (14 KB). Implemented 2 level file indexing using AVL search tree and linked list to ensure efficient insertion, deletion and search operations">
-											<img src="images/seven.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Student Database Management System</h3>
-												<p>Used: C, file handling, data structures</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/hue" Vclass="swipebox" title="Hue (Hadoop User Experience) is an open-source Web interface that supports Apache Hadoop and its ecosystem, licensed under the Apache v2 license.">
-											<img src="images/fifteen.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Hadoop User Experience</h3>
-												<p>Used: Django framework, knockout.js, mako templates</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Visualisation-Final-Project" target="_blank" Vclass="swipebox" title="Visualizing the school donations using the data collected on www.donorschoose.org.">
-											<img src="images/thirteen.png" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Visualisation Final Project</h3>
-												<p>Used: Javascript, D3.js, NodeJS, HTML, CSS</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Advanced-Visualisation" target="_blank" Vclass="swipebox" title="Data Clustering, Decimation, Dimension reduction, PCA vectors via scatterplot and MDS (Euclidian and Correlation distance) in 2D">
-											<img src="images/fourteen.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Advanced Visualisation</h3>
-												<p>Used: Python, D3.js, Javascript, HTML, CSS</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Million-Song-Project" target="_blank" Vclass="swipebox" title="Built a Song Recommendation System using both content-based and collaborative filtering on 10GB subset of MSD (Million Song Data) with a precision of 6.1%. Also performed trend analysis and visualization on MSD across the years, varying from song popularity to loudness.">
-											<img src="images/five.jpg" alt="Image 404" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Million Song Project</h3>
-												<p>Used: Apache Spark, Python</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="javascript:void(0);" Vclass="swipebox" title="Geocoding is a critical task for big spatial data based public health studies, and many other spatial oriented data analytics. Developing a highly scalable geocoding system that could support massive addresses with high accuracy. Using multiple databases, including TIGER, parcel data, OpenStreetMap, etc and building parallel queries through in-memory based database for scalable searching. Using NLP and rule engine for understanding the semantics of US addresses. The aim is to deliver the best open source geocoding system for the community.">
-											<img src="images/nine.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Geocoding System in Spatial Big Data Analytics</h3>
-												<p>Used: Java, Python, Solr, Sphinx, TigerMap, Open Street Map</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/hue" Vclass="swipebox" title="Hue (Hadoop User Experience) is an open-source Web interface that supports Apache Hadoop and its ecosystem, licensed under the Apache v2 license.">
-											<img src="images/fifteen.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Hadoop User Experience</h3>
-												<p>Used: Django framework, knockout.js, mako templates</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Pre-process-system-calls-vectors-support-in-Linux-Kernel" target="_blank" Vclass="swipebox" title="Modified the Linux kernel to support system calls (on x64) on a per-process basis. Each process can now execute different versions of a system call based on the system call vector it is assigned.">
-											<img src="images/ten.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Pre-process system calls vectors in Linux Kernel</h3>
-												<p>Used: C, Kernel C, Linux</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Xmergesort-System-Call-in-Linux-Kernel" target="_blank" Vclass="swipebox" title="This project involved implementation of a new system call in Linux kernel that takes two or more input files, merge-sorts them, and produces an output file. All checks and validations were done at the system level. Also supported flags to determine various options of sorting.">
-											<img src="images/three.png" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>"xmergesort"​ System Call in Linux Kernel</h3>
-												<p>Used: C, Kernel C, Linux</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Stackable-Tracing-File-System" target="_blank" Vclass="swipebox" title="Built a Stackable File System called “Trfs” to provide operation-tracing support for all the file system calls from the user land. All the trace records can be replayed from the user level.">
-											<img src="images/two.jpeg" alt="Image 404" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Stackable Tracing Filesystem</h3>
-												<p>Used: C, Kernel C, Linux</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Virtual-Medical-Home" target="_blank" Vclass="swipebox" title="Conceptualized multi-level “Virtual Medical Home” through a series of web-enabled services and rendered a robust IR system capable of understanding bio-metrics, blood reports, X-rays, CT scans, etc. Provisioned with portals to schedule appointments, view medical prescriptions and send in inquiries pertaining to treatment follow-up">
-											<img src="images/one.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Virtual Medical Home</h3>
-												<p>Used: Java, JSP, Servlet, MySQL, HTML, CSS, AJAX, Javascript</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Web-Application-Firewall" target="_blank" Vclass="swipebox" title="Designed a Web Application Firewall as an Apache module that “sits” in-front of a web server to recognize malicious requests using signatures and anomaly detection.The WAF recognizes malicious requests using signatures and anomaly detection. WAF is trained on Joolma Content Management System.">
-											<img src="images/four.jpg" alt="Image 404" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Web Application Firewall</h3>
-												<p>Used: Apache module, C</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Visualisation-Final-Project" target="_blank" Vclass="swipebox" title="Visualizing the school donations using the data collected on www.donorschoose.org.">
-											<img src="images/thirteen.png" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Visualisation Final Project</h3>
-												<p>Used: Javascript, D3.js, NodeJS, HTML, CSS</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Advanced-Visualisation" target="_blank" Vclass="swipebox" title="Data Clustering, Decimation, Dimension reduction, PCA vectors via scatterplot and MDS (Euclidian and Correlation distance) in 2D">
-											<img src="images/fourteen.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Advanced Visualisation</h3>
-												<p>Used: Python, D3.js, Javascript, HTML, CSS</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Packed-Suffix-Array" target="_blank" Vclass="swipebox" title="Programmed a suffix array along with associated functions using binary encoding and tested on real sequencing data.">
-											<img src="images/six.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Packed Suffix Array</h3>
-												<p>Used: C++, RapMap API</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<div class="grid">
-										<a href="https://github.com/prachi108/Student-DBMS" target="_blank" Vclass="swipebox" title="Designed Flat File Database Management System using C language as a light weight database application (14 KB). Implemented 2 level file indexing using AVL search tree and linked list to ensure efficient insertion, deletion and search operations">
-											<img src="images/seven.jpg" alt="" class="img-responsive" />
-											<div class="figcaption">
-												<h3>Student Database Management System</h3>
-												<p>Used: C, file handling, data structures</p>
-											</div>
-										</a>	
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--ResponsiveTabs-->
-			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-			<script type="text/javascript">
-				$(document).ready(function () {
-					$('#horizontalTab').easyResponsiveTabs({
-						type: 'default', //Types: default, vertical, accordion           
-						width: 'auto', //auto or any width like 600px
-						fit: true   // 100% fit in a container
-					});
-				});		
-			</script>
-			<!--//ResponsiveTabs-->
-			<!-- swipe box js -->
-			<script src="js/jquery.swipebox.min.js"></script> 
-				<script type="text/javascript">
-					jQuery(function($) {
-						$(".swipebox").swipebox();
-					});
-			</script>
-			<!-- //swipe box js -->
-		</div>
-	</div>
-	<!--//portfolio-->
-	<!--contact -->
-	<div class="welcome contact" id="contact">
-		<div class="container">
-			<h3 class="title">Let's Connect!</h3>
-			<div class="contact-row">
-				<div class="col-md-6 contact-left">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3015.392400766904!2d-73.1104911!3d40.9071413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e83f4a3023cc8b%3A0x1a1b76b67216bac2!2sChapin+Apartment+C%2C+Stony+Brook%2C+NY+11790!5e0!3m2!1sen!2sus!4v1490100529616"></iframe>
-				</div>
-				<div class="col-md-6 contact-right">
-					<div class="address-left" >
-						<p>700 Health Sciences Drive, A-2008C Chapin Apartments,<br> Stony Brook, New York, USA (11790)</p>
-					</div>
-					<div class="address-right" style="margin-bottom: 20%;">
-						<p>Cell Number :  +1-631-542-3023</p>
-						<p>E-mail : <a href="mailto:ppoddar@cs.stonybrook.edu">ppoddar@cs.stonybrook.edu</a></p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:prachi.poddar108@gmail.com">prachi.poddar108@gmail.com</a></p>
-					</div>
-					<!-- <div class="social" ><iframe width="100%" height="100%" frameborder="0" src="social.html"></iframe></div> -->
-					
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--//contact -->
-	<!--footer-->
-	<div class="footer">
-		<div class="container">
-			<p>Last Updated: 11th July 2017
-		</div>
-	</div>
-	<!--//footer-->
-	<!--smooth-scrolling-of-move-up-->
-	<script type="text/javascript">
-		$(document).ready(function() {
-		
-			var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-			};
-			
-			$().UItoTop({ easingType: 'easeOutQuart' });
-			
-		});
-	</script>
-	<!--//smooth-scrolling-of-move-up-->
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
+ 
+           
+    
+      
+      
+            <div id="maincontent">
+
+       <div id="navbarTop" align="center">
+          <h1> Prachi Poddar </h1>
+          <h3><center>  </center></h3>  <p/> <p/>
+       </div>
+          
+               <p>
+      <p/>
+      I'm an engineer, spiritualist and an avid traveller.
+
+      <p/>
+      Currently I am leading experimentation at LinkedIn. I've spent several years in various tech companies (Twitter, Etsy, Cloudera, EdgeVerve) building highly scalable systems serving milions of users. Domain expertise: Product engineering, A/B testing, ML Feature Systems and Product Platforms. <p/>
+
+Outside work, I spend time reading eastern philosophy, writing about my professional/life experiences and travel the world!
+
+
+<!-- <p style="background-color:lightyellow">
+
+   <b> <a href="https://sriramk.substack.com">Newsletter/subscribe</a> </b>
+
+   Subscribe -> <a href="https://sriramk.substack.com">here</a>.
+</p> -->
+
+<!-- <p/>
+   <b> <a href="/blog">Writings</a> </b>
+   <p>
+
+   </p>
+
+<p/>
+   <b> Popular pieces </b>: Some popular pieces
+   <p/>
+      <ol>
+         <li><a href="/group-chats-rule-the-world">Group chats rule the world</a></li>
+         <li><a href="/clock-speed">Clock speed</a></li>
+         <li><a href="/coldemail">How to write a cold email</li>
+         <li><a href="/building-unmeasurable-things">Building something no one can measure</li>
+      
+      
+      </ol>
+
+   </p>
+      
+ <b> <a href="/memos.html">Memos Collection</a></b>: Collection of classic memos from tech to business to politics </p> -->
+                                             
+<p/>
+   
+   Email: <a href="mailto:prachi.poddar108@gmail.com">prachi.poddar108@gmail.com</a>. <br/>
+   X:<a href="http://x.com/imPrachiPoddar">@imPrachiPoddar</a>.
+   
+<p/>
+
+
+          <p/>
+        </div>
+
 </body>
 </html>
